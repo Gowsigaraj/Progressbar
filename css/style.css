@@ -10,7 +10,7 @@ padding:0;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background-color:pink;
+	/* background-color:pink; */
 }
 
 .container
@@ -20,7 +20,7 @@ padding:0;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background-color:blue;
+	/* background-color:blue; */
 	border:2px solid black;
 	flex-direction:column;
 	
@@ -45,15 +45,23 @@ padding:0;
 {
 	width:30%;
 	height:34px;
-	background-color:green;
+	background-color:#27ae60;
 
 }
 
 .box_secondary
 {
-	width:30%;
+	width:65%;
 	height:34px;
-	background-color:pink;
+	background-color:#3498db;
+
+}
+
+.box_warning
+{
+	width:75%;
+	height:34px;
+	background-color:#f39c12;
 
 }
 	
